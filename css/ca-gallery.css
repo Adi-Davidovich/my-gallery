@@ -641,6 +641,10 @@ ul.social-buttons li a:hover {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
+.btn-outline-primary {
+    color: #fed136;
+    border-color: #fed136;
+}
 .btn-primary.focus,
 .btn-primary:focus {
     color: white;
@@ -651,6 +655,11 @@ ul.social-buttons li a:hover {
     color: white;
     border-color: #f6bf01;
     background-color: #fec503;
+}
+.btn-outline-primary:hover {
+    color: white;
+    border-color: #f6bf01;
+    background-color: #fed136;
 }
 .btn-primary.active,
 .btn-primary:active,
