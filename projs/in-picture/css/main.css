@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+h1 {
+    color: darkcyan;
+}
+h2 {
+    color: darkorchid;
+}
+h3 {
+color: rgb(177, 109, 211);
+}
+
+.box {
+    margin: 50px auto;
+    max-width: 500px;
+    min-height: 500px;
+    border-radius: 50px;
+    padding: +10px;
+    background-color: rgb(199, 198, 198);
+}
+
+.img {
+    margin: 30px auto;
+    max-width: 300px;
+}
+
+.answer {
+    width: 400px;
+    max-height: 100px;
+    margin: 20px auto;
+    border: 10px ;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(96, 117, 163);
+    cursor: pointer;
+}
+
+.correct {
+    background-color: green;
+}

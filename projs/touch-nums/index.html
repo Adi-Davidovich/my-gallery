@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Touch-nums</title>
+  </head>
+  
+  <body>
+    <div class="box">
+      <div class="level">
+        choose a level: <br />
+        easy: 16
+        <button onclick="createBoard(16)" class="pickLevel"></button> difficult:
+        25 <button onclick="createBoard(25)" class="pickLevel"></button> very
+        hard: 36 <button onclick="createBoard(36)" class="pickLevel"></button>
+      </div>
+      <div class="timer">timer: 0.000</div>
+      <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+      </table>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

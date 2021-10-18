@@ -1,0 +1,52 @@
+
+body {
+    background-color: #5590ff;
+    text-align: center;
+    background-blend-mode: soft-light;
+  }
+
+h1 {
+  color: rgb(194, 7, 7);
+  font-size: 50px;
+}
+
+h2 {
+  color: hsl(61, 100%, 50%);
+  margin-bottom: 20%;
+}
+
+h2 span {
+  color: lawngreen;
+}
+
+.balloon {
+  width: 85px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  transition: opacity 0.5s;
+}
+.balloon.clicked {
+    opacity: 0;
+}
+.balloon1 {
+  background-color: rgb(252, 42, 6);
+  left: 20%;
+}
+.balloon2 {
+    background-color: rgb(221, 255, 28);
+    left: 35%;
+  }
+.balloon3 {
+    background-color: rgb(23, 156, 45);
+    left: 50%;
+  }
+.balloon4 {
+    background-color: rgb(248, 134, 3);
+    left: 65%;
+  }
+.balloon5 {
+    background-color: rgb(231, 26, 180);
+    left: 80%;
+  }
