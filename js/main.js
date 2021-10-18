@@ -1,6 +1,7 @@
 console.log('Starting up');
 
 $(onInit());
+$('.offcanvas-aside .submit').click(onSendForm);
 
 function onInit() {
     renderProjs()
@@ -67,6 +68,17 @@ function renderModals() {
                 </div>`
     })
     $('.modal-container').html(strHtml);
+}
+
+
+function onSendForm() {
+    var email = $('#email').val();
+    var subject = $('#subject').val();
+    var message = $('#message').val();
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=adidaflower@gmail.com&su=${subject}&body=${email}///${message}`, '_blank');
+    $('#email').val('');
+    $('#subject').val('');
+    $('#message').val('');
 }
 
 
